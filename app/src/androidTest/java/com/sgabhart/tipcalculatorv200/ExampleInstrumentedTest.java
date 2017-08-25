@@ -1,4 +1,4 @@
-package com.sgabhart.tipcalculatorv102;
+package com.sgabhart.tipcalculatorv200;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

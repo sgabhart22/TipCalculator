@@ -1,4 +1,4 @@
-package com.sgabhart.tipcalculatorv102;
+package com.sgabhart.tipcalculatorv200;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
