@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingStart="@dimen/activity_horizontal_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingEnd="@dimen/activity_horizontal_margin"
     tools:context="com.sgabhart.tipcalculatorv102.MainActivity">
 
     <TextView
@@ -15,7 +15,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:layout_marginLeft="20dp"
         android:padding="10dp"
         android:minWidth="120dp"
         android:textSize="28sp"
@@ -27,10 +26,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:layout_marginRight="20dp"
-        android:layout_toRightOf="@id/label_bill"
+        android:layout_toEndOf="@id/label_bill"
         android:layout_alignBottom="@id/label_bill"
-        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
         android:textSize="28sp"
         android:gravity="center"
         android:textColor="@color/darkBlue"
@@ -43,8 +41,8 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:layout_below="@id/label_bill"
-        android:layout_alignLeft="@id/label_bill"
-        android:layout_alignRight="@id/label_bill"
+        android:layout_alignStart="@id/label_bill"
+        android:layout_alignEnd="@id/label_bill"
         android:textSize="28sp"
         android:background="@color/lightGray"
         android:text="@string/label_tip_percent"/>
@@ -54,9 +52,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:layout_toRightOf="@id/label_tip_percent"
+        android:layout_toEndOf="@id/label_tip_percent"
         android:layout_alignBottom="@id/label_tip_percent"
-        android:layout_alignRight="@id/amount_bill"
+        android:layout_alignEnd="@id/amount_bill"
         android:textSize="28sp"
         android:gravity="center"
         android:textColor="@color/darkBlue"
@@ -70,8 +68,8 @@
         android:layout_height="5dip"
         android:layout_below="@id/label_tip_percent"
         android:layout_marginTop="20dp"
-        android:layout_alignLeft="@id/label_bill"
-        android:layout_alignRight="@id/amount_bill"
+        android:layout_alignStart="@id/label_bill"
+        android:layout_alignEnd="@id/amount_bill"
         android:background="#FF00"/>
 
     <TextView
@@ -81,8 +79,8 @@
         android:layout_marginTop="20dp"
         android:padding="10dp"
         android:layout_below="@id/red_line"
-        android:layout_alignLeft="@id/label_bill"
-        android:layout_alignRight="@id/label_bill"
+        android:layout_alignStart="@id/label_bill"
+        android:layout_alignEnd="@id/label_bill"
         android:textSize="28sp"
         android:background="@color/lightGray"
         android:text="@string/label_tip"/>
@@ -92,9 +90,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:layout_toRightOf="@id/label_tip"
+        android:layout_toEndOf="@id/label_tip"
         android:layout_alignBottom="@id/label_tip"
-        android:layout_alignRight="@id/amount_bill"
+        android:layout_alignEnd="@id/amount_bill"
         android:background="@color/lightGreen"
         android:gravity="center"
         android:textSize="28sp"/>
@@ -106,8 +104,8 @@
         android:layout_marginTop="20dp"
         android:padding="10dp"
         android:layout_below="@id/label_tip"
-        android:layout_alignLeft="@id/label_bill"
-        android:layout_alignRight="@id/label_bill"
+        android:layout_alignStart="@id/label_bill"
+        android:layout_alignEnd="@id/label_bill"
         android:textSize="28sp"
         android:background="@color/lightGray"
         android:text="@string/label_total"/>
@@ -117,9 +115,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:layout_toRightOf="@id/label_total"
+        android:layout_toEndOf="@id/label_total"
         android:layout_alignBottom="@id/label_total"
-        android:layout_alignRight="@id/amount_bill"
+        android:layout_alignEnd="@id/amount_bill"
         android:background="@color/lightGreen"
         android:textSize="28sp"/>
 
