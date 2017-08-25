@@ -16,7 +16,7 @@
     </style>
 
     <style name="LabelStyle" parent="TextStyle">
-        <item name="background">@color/lightGray</item>
+        <item name="android:background">@color/lightGray</item>
     </style>
 
     <style name="CenteredTextStyle" parent="TextStyle">

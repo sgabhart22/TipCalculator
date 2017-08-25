@@ -21,7 +21,6 @@
     <EditText
         android:id="@+id/amount_bill"
         style="@style/InputStyle"
-        android:layout_marginEnd="20dp"
         android:layout_toEndOf="@id/label_bill"
         android:layout_alignBottom="@id/label_bill"
         android:layout_alignParentEnd="true"
