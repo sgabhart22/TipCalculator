@@ -74,4 +74,65 @@
         android:layout_alignRight="@id/amount_bill"
         android:background="#FF00"/>
 
+    <TextView
+        android:id="@+id/label_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_below="@id/red_line"
+        android:layout_alignLeft="@id/label_bill"
+        android:layout_alignRight="@id/label_bill"
+        android:textSize="28sp"
+        android:background="@color/lightGray"
+        android:text="@string/label_tip"/>
+
+    <TextView
+        android:id="@+id/amount_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/label_tip"
+        android:layout_alignBottom="@id/label_tip"
+        android:layout_alignRight="@id/amount_bill"
+        android:background="@color/lightGreen"
+        android:gravity="center"
+        android:textSize="28sp"/>
+
+    <TextView
+        android:id="@+id/label_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_below="@id/label_tip"
+        android:layout_alignLeft="@id/label_bill"
+        android:layout_alignRight="@id/label_bill"
+        android:textSize="28sp"
+        android:background="@color/lightGray"
+        android:text="@string/label_total"/>
+
+    <TextView
+        android:id="@+id/amount_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_toRightOf="@id/label_total"
+        android:layout_alignBottom="@id/label_total"
+        android:layout_alignRight="@id/amount_bill"
+        android:background="@color/lightGreen"
+        android:textSize="28sp"/>
+
+    <Button
+        android:id="@+id/button_calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/amount_total"
+        android:textSize="28sp"
+        android:background="@color/darkGreen"
+        android:text="@string/button_calculate"/>
+
 </RelativeLayout>
