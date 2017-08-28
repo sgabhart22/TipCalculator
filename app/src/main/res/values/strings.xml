@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TipCalculatorV2.0.0</string>
+    <string name="app_name">TipCalculatorV3.0.2</string>
 
     <string name="label_bill">Bill</string>
     <string name="label_tip_percent">Tip (%)</string>
