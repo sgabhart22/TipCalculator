@@ -26,7 +26,7 @@ public class TipCalculator {
     }
 
     public float tipAmount() {
-        return bill * tip;
+        return bill * (tip / 100);
     }
 
     public float totalAmount() {

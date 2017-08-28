@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             tipText.setText(money.format(tip));
             totalText.setText(money.format(total));
         } catch (NumberFormatException e) {
-            
+
         }
     }
 }
