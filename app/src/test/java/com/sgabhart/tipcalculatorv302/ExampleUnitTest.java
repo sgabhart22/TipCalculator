@@ -1,4 +1,4 @@
-package com.sgabhart.tipcalculatorv200;
+package com.sgabhart.tipcalculatorv302;
 
 import org.junit.Test;
 
