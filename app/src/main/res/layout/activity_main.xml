@@ -45,6 +45,15 @@
         android:hint="@string/amount_tip_percent_hint"
         android:inputType="number"/>
 
+    <TextView
+        android:id="@+id/label_party"
+        style="@style/LabelStyle"
+        android:layout_marginTop="20dp"
+        android:layout_alignStart="@id/label_tip_percent"
+        android:layout_below="@+id/label_tip_percent"
+        android:layout_alignEnd="@+id/label_tip_percent"
+        android:text = "@string/label_party" />
+
     <!--red line-->
     <View
         android:id="@+id/red_line"
